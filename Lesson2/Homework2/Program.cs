@@ -31,7 +31,7 @@ namespace Homework2
             int Minutes = 30;
             int Seconds = 20;
 
-            int FullTimeInSeconds = (Hour * 3600) + (Minutes * 60) + Seconds;
+            int FullTimeInSeconds = Hour * 3600 + Minutes * 60 + Seconds;
             Console.WriteLine($"-Iнформацiя: \n-Час - {Hour} час \n-Мiнути - {Minutes} \n-Секунди - {Seconds}");
 
             Console.WriteLine($"Загальний час у секундах: {FullTimeInSeconds}");
